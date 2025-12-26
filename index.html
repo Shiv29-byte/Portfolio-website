@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container"> 
+        <!-- sidebar -->
+
+        <div class="sidebar">
+
+            <!-- profile -->
+            <div class="profile">
+                <img src="shiv.jpg" alt="">
+                <h2>Shiv Bhatia</h2>
+                <p>Frontend Developer</p>
+
+            </div>
+
+            <!-- contact -->
+            <div class="contact">
+                <div class="email">
+                    <h3 class="label">Email</h3>
+                    <a href="mailto:shivbhatia38@gmail.com" class="value">shivbhatia38@gmail.com</a>
+                </div>
+                <div class="phone">
+                    <h3 class="label">Phone</h3>
+                    <a href="tel:7302017301" class="value">7302017301</a>
+                </div>
+                <div class="location">
+                    <h3 class="label" >Location</h3>
+                    <p class="value">Kotdwara,Uttrakhand</p>
+                </div>
+            </div>
+
+            <!-- social-media -->
+            <div class="social">
+                <a href="https://www.linkedin.com/in/shiv-bhatia-3b494a303"><img src="https://simpleicons.org/icons/x.svg" alt="" srcset=""></a>
+                <a href="https://www.linkedin.com/in/shiv-bhatia-3b494a303"><img src="https://simpleicons.org/icons/git.svg" alt="" srcset=""></a>
+                <a href="https://www.linkedin.com/in/shiv-bhatia-3b494a303"><img src="https://www.svgrepo.com/download/29783/linkedin-logo.svg" alt="" srcset=""></a>
+            </div>
+        </div>
+
+        <!-- main content -->
+         <div class="main-content">
+
+            <!-- navigation -->
+             <div id="navigation">
+                <!-- semantics meaning as nav -->
+                <nav>
+                    <a href="#about" class="active">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#portfolio">Portfolio</a>
+                </nav>
+             </div>
+
+             <!-- aboutMe -->
+              <div id="about" >
+                <h2 class="heading">About Me</h2>
+                <div class="line"></div>
+                <p class="content">I’m a passionate Frontend Developer who loves turning ideas into beautiful, responsive, and user-friendly web interfaces. I enjoy working with HTML, CSS, JavaScript and continuously improving my skills to build engaging digital experiences.</p>
+              </div>
+
+              <!-- skills -->
+               <div id="skills">
+                <h2 class="heading">Skills</h2>
+                <div class="line"></div>
+                <div class="grid-container">
+                    <div class="item">
+                        <img src="https://www.svgrepo.com/show/512355/html-124.svg" alt="">
+                        <h3>HTML5</h3>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://www.svgrepo.com/show/508795/css3-02.svg" alt="">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="item">
+                        <img src="https://www.svgrepo.com/show/508924/js02.svg" alt="">
+                        <h3>JavaScript</h3>
+                    </div><div class="item">
+                        <img src="https://www.svgrepo.com/show/512137/file-cpp-1747.svg" alt="">
+                        <h3>CPP</h3>
+                    </div>
+                    <div class="item">
+                        <img src="https://www.svgrepo.com/show/518318/opencvmanager.svg" alt="">
+                        <h3>OpenCv</h3>
+                    </div>
+                    <div class="item">
+                        <img src="https://www.svgrepo.com/show/512738/python-127.svg" alt="">
+                        <h3>PYTHON</h3>
+                    </div>
+                </div>
+
+               </div>
+
+               <!-- education -->
+                <div id="education">
+                    <h2 class="heading">Education</h2>
+                <div class="line"></div>
+                <div class="edtech">
+                    <div class="edfirst">
+                        <div class="year">2022-2023</div>
+                        <h3 class="degree">Senior Secondary Education</h3>
+                        <p class="college"> T.C.G PUBLIC SCHOOL</p>
+                        <p class="learning"> A grade in my intermediate school.I had also been rewarded with the title of "Mr school".</p>
+                        <div class="goal"></div>
+
+
+
+                    </div>
+                    <div class="edsecond">
+                        <div class="year">2024-2028</div>
+                        <h3 class="degree">Bachelors of Technology in Engineering</h3>
+                        <p class="college"> COER UNIVERSITY</p>
+                        <p class="learning"> Focused on learning DSA , Web-dev,programming languages like cpp, python,yolov8,opencv</p>
+                        <div class="goal"></div>
+                    </div>
+
+                    <div class="liner"></div>
+                </div>
+
+                </div>
+
+                <!-- portfolio -->
+                 <div id="portfolio">
+                    <h2 class="heading">PortFolio</h2>
+                <div class="line"></div>
+                <div class="project-container">
+                    <div class="project">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <div class="card">
+                            <h3>Student Grievance system</h3>
+                            <p> we build a frontend on Student complaint system.</p>
+                            <span>HTML</span><span>CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                       <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NTg0MjU5NjM&ixlib=rb-1.2.1&q=80&w=400" alt="">
+                        <div class="card">
+                            <h3>Voice control system</h3>
+                            <p>  we build a frontend on voice control system </p>
+                            <span>HTML</span><span>CSS</span> <span>JS</span>
+                    </div>
+                </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGRhc2hib2FyZHxlbnwwfHx8fDE2NTg0MjYwMjM&ixlib=rb-1.2.1&q=80&w=400" alt="">
+                        <div class="card">
+                            <h3>Student Performance predictor</h3>
+                            <p>  we build a frontend on Student Performance predictor</p>
+                            <span>HTML</span><span>CSS</span><span>Python</span>
+                    </div>
+                </div>
+                    <div class="project">
+                        <img src="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE4fHxwb3J0Zm9saW98ZW58MHx8fHwxNjU4NDI2MDUx&ixlib=rb-1.2.1&q=80&w=400" alt="">
+                        <div class="card">
+                            <h3>My Own Portfolio</h3>
+                            <p>  we build a frontend on own portfolio website</p>
+                            <span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+                </div>
+                 </div>
+
+
+         </div>
+
+
+    </div>
+</body>
+</html>
